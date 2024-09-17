@@ -1,0 +1,190 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(40, 44, 52, 0);
+  color: #fff;
+  background-image: url('img/black-smooth-textured-paper_53876-96064.avif');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0rem 0rem 1rem;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  background-size: cover; /* Scale the background image to cover the entire element */
+  background-position: center; /* Center the background image */
+  padding: 0%; /* Remove any padding */
+  width: 70px; /* Set the width of the image container */
+  height: 70px; /* Set the height of the image container */
+  display: block; /* Display the image container as a block element */
+  background-color: transparent; /* Set background color to transparent */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  padding-top: auto;
+  padding-bottom: auto;
+  text-align: center;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.hero .discord-btn {
+  background-color: #2e49c0; /* Discord blue color */
+}
+
+.hero .discord-btn:hover {
+  background-color: #041dfc; /* Discord blue hover color */
+}
+
+.hero .instagram-btn {
+  background-color: #2e49c0; /* Instagram pink color */
+}
+
+.hero .instagram-btn:hover {
+  background-color: #041dfc; /* Instagram pink hover color */
+}
+
+.hero .btn i {
+  margin-right: 0.5rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #812222dc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+.btn {
+  transition: background-color 0.3s ease-in-out;
+  }
+  
+  
+  .hero .btn:not(.discord-btn):not(.instagram-btn):hover {
+    background-color: #ff0000; /* YouTube red hover color */
+  }
+
+footer {
+  position: fixed; /* or absolute, depending on your layout */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.02); /* adjust the opacity to your liking */
+  padding: 1rem;
+  text-align: center;
+  color: #272525;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+/* Media queries for responsiveness */
+
+/* For screens smaller than 1200px */
+@media (max-width: 1200px) {
+  .container {
+      max-width: 90%;
+  }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .cards {
+      flex-direction: column;
+      align-items: center;
+  }
+  .card {
+      margin-bottom: 20px;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .card {
+      width: 80%;
+  }
+  .card img {
+      width: 80px;
+      height: 80px;
+  }
+}
+
+/* For screens with a resolution of 1080x2340 at 35% */
+@media only screen and (min-width: 1080px) and (min-height: 2340px) {
+  /* Your styles here */
+  .container {
+    max-width: 35%;
+  }
+  .hero {
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    font-size: 1.1rem;
+  }
+  .btn {
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+.l {
+  margin: 20px auto;
+  display: block;
+}
+
