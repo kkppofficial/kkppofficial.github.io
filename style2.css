@@ -25,11 +25,12 @@ header .container {
 header img {
   background-size: cover; /* Scale the background image to cover the entire element */
   background-position: center; /* Center the background image */
-  padding: 0%; /* Remove any padding */
-  width: 70px; /* Set the width of the image container */
-  height: 70px; /* Set the height of the image container */
+  padding: 1%; /* Remove any padding */
+  width: 30px; /* Set the width of the image container */
+  height: 30px; /* Set the height of the image container */
   display: block; /* Display the image container as a block element */
   background-color: transparent; /* Set background color to transparent */
+  margin-top: 10px;
 }
 
 nav ul {
