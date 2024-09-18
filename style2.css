@@ -130,6 +130,20 @@ footer p {
   margin: 0;
 }
 
+footer a {
+  position: absolute;
+  bottom: 10px;
+  left: 10px; 
+  background-color: rgba(0, 0, 0, 0.02);
+  color: #272525;
+  text-decoration: none; 
+}
+
+footer a:hover {
+  color: #ede7d434;
+  text-decoration: none;
+}
+
 
 
 /* Media queries for responsiveness */
